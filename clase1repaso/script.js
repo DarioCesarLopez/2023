@@ -8,8 +8,8 @@ let div3 = document.querySelector(".Div_C");
 
 div3.classList.add("colorGris");
 
-let bombita = document.getElementById("bomba");
-bombita.classList.add("bomba");
+let bombita = document.getElementById("box");
+bombita.classList.add("box");
 
 let boton_bomba = document.getElementById("boom");
 
@@ -27,7 +27,7 @@ boton_bomba.addEventListener('click', function(e){
  time = 10
  function explotar_bomba() {
     let intervalo = setInterval(function() {
-        document.getElementById("bomba").innerHTML = time;
+        document.getElementById("box").innerHTML = time;
         if (time === 0) {
             clearInterval(intervalo);
             alert('¡¡BOOOOOM EXPLOCION!!');

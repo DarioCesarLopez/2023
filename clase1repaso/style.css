@@ -8,8 +8,41 @@
     color:rgb(1, 77, 219);
 }
 
-.bomba {
+.box {
     background-color: rgb(243, 14, 14);
     color:rgb(242, 245, 250);
     font-size: 30px;
 }
+
+
+.boxPequeña {
+    width: 100px;
+    height: 100px;
+    }
+    
+    .boxGrande {
+    width: 300px;
+    height: 300px;
+    }
+    
+    .boxRedondeada {
+    border-radius: 10px;
+    }
+    
+    .boxConSombra {
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+    .box {
+      font-size: 20px;
+    }
+  }
+  
+  /* Estilos para pantallas grandes */
+  @media only screen and (min-width: 768px) {
+    .box {
+      font-size: 40px;
+    }
+  }
