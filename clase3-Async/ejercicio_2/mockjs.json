@@ -1,0 +1,46 @@
+{
+    "status": "OK",
+    "persona":[
+        {
+    "nombre":"Lucas",
+    "apellido" : "Martinez",
+    "edad" : "43",
+    "sexo" : "Masculino",
+    "casado": "true",
+    "dni": "33222111"
+        },
+        {
+    "nombre":"Carla",
+    "apellido":"Lopesku",
+    "edad" : "29",
+    "sexo" : "Femenino",
+    "casado": "true",
+    "dni":"36965544"
+        },
+        {
+    "nombre":"Julio",
+    "apellido":"Cortazar",
+    "edad" : "23",
+    "sexo" : "Masculino",
+    "casado": "False",
+    "dni":"16965777"
+        },
+        {
+    "nombre":"Darius",
+    "apellido":"Marck",
+    "edad" : "31",
+    "sexo" : "Masculino",
+    "casado": "true",
+    "dni":"26219752"
+        },
+        {
+    "nombre":"Leandro",
+    "apellido":"Madloc",
+    "edad" : "24",
+    "sexo" : "Masculino",
+    "casado": "False",
+    "dni":"32326951"
+        }       
+    ]
+
+}
