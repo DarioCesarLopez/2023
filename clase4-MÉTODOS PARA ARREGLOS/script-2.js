@@ -1,15 +1,19 @@
 
-async function obtenerPersonajes(){ // funcion asincronica "se coloca async function"
+ async function obtenerPersonajes(){ // funcion asincronica "se coloca async function"
 
         let respuesta = await fetch("https://rickandmortyapi.com/api/character"); //locacion del mock local a consultar
          let data = await respuesta.json();
+         console.log("**************MOSTRAR LA DATA*****************");
             console.log(data);
-           
+            console.log("METODO FOR EACH personajes y su estado 'status'");
            data.results.forEach(element => {
             console.log(element.name + " "+element.status);
-            console.log();
-           }); 
-        
+            });
+            console.log("me mostró los nombres de personajes y su estado 'status'"); 
+            console.log("");
+            console.log("************");
+            console.log("");
+           console.log("METODO -MAP- MOSTRAR EL PERSONAJE Y SU TIPO");
         let personajes = data.results.map(personaje => ({nombre: personaje.name, tipo: personaje.type }));
         console.log(personajes);
         
@@ -30,8 +34,9 @@ async function obtenerPersonajes(){ // funcion asincronica "se coloca async func
         console.log(femeninoNombres);
 
 
-
+        // falta la funcion mostarFemenino
 
     }
+
 
 obtenerPersonajes();
