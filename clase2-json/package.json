@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "node-fetch": "^3.3.1",
     "npm": "^9.6.2"
   }
 }
