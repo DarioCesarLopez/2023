@@ -27,8 +27,8 @@
         console.log(personajes_en_mayuscula);  
         
         let femenino = await data.results.filter(personajes => personajes.gender == "Female");
-        console.log("mostrar todo los personajes FEMENINOS")
-        console.log(femenino);
+        //console.log("mostrar todo los personajes FEMENINOS")
+        //console.log(femenino);
         let femeninoNombres = femenino.map(personajes => personajes.name);
         console.log(" solo nombres FEMENINOS");
         console.log(femeninoNombres);
