@@ -2,7 +2,9 @@ import './Content.css';
 
 const Content = () => {
     return (
-        <div className='content'>CONTENIDO</div>
+        <div className='content'>
+            <button className ='button' onClick ={()=> alert("ENTRALE CHANGO")}>ENTRALE!!</button>
+        </div>
     )
 }
 
