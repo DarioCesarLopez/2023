@@ -1,0 +1,6 @@
+Esta carpeta perteneca a la clase Nº 5
+
+la carpeta "myapp"
+
+sobre los inicios de Reactjs.
+primer TP
