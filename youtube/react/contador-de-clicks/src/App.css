@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-image: url('C:\Users\Usuario\programacion-2023\youtube\react\contador-de-clicks\src\imagenes\fondo.png');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+.App {
+
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: Lato, sans-serif;
+}
+
+.fondo-logo {
+  width: 95%;
+}
+
+h3 {
+  color: rgba(54, 215, 240, 0.808);
+  max-width: 900px;
+  font-size: 2.5em;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 40px 0;
+}
+
+.contenedor-contador {
+  padding-top: 100px;
+  padding-right: 700px;
+  height: 600px;
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+}
