@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: -webkit-repeating-linear-gradient( rgba(1, 11, 143, 0.966) , rgba(32, 1, 90, 0.781) );
+}
+
 .App {
   text-align: center;
 }

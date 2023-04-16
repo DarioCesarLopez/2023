@@ -1,0 +1,97 @@
+
+.tarjeta {
+    background-color: #1f53c5;
+    flex-direction: column;
+    padding: 25px;
+    border: 1px solid #087cca ;
+    width: 450px;
+    height: 210px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+    box-shadow: 0 6px 15px 3px rgba(9, 116, 133, 0.5);
+}
+
+.form {
+    width: 450px;
+    background: #24303c;
+    padding: 20px;
+    margin: auto;
+    margin-top: 22px;
+    border-radius: 4px;
+    font-family: 'Calibri';
+    color: bisque;
+    box-shadow: 0 6px 15px 3px rgba(14, 176, 201, 1.5);
+  }
+
+.form2 {
+    width: 550px;
+    height: 1000px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    align-content: space-between;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: 'Calibri';
+    color: bisque;
+    box-shadow: 0 6px 15px 3px rgba(10, 128, 146, 1.5);
+}
+
+.form2 h3 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.form2 p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.form h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.control {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 14px;
+    color: antiquewhite;
+}
+
+.form button {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: auto;
+    font-size: 16PX;
+    cursor: pointer; 
+}
+
+.form button:hover {
+    width: 100%;
+    background: #02143d;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: auto;
+    font-size: 16PX;
+}
+
+
+
+
+
+
+
+  
