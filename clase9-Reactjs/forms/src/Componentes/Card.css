@@ -3,10 +3,11 @@
     background-color: #1f53c5;
     flex-direction: column;
     padding: 25px;
+    margin-top: 10px;
+    margin-left: 18px;
     border: 1px solid #087cca ;
     width: 450px;
     height: 210px;
-    margin:auto;
     display: flex;
     align-items: center;
     align-content: space-around;
